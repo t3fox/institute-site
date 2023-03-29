@@ -1,0 +1,83 @@
+a.btn-first {
+    text-align: center;
+    width: 100%;
+    /* display: block; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid gray;
+}
+
+a.btn-first:hover {
+   
+    color: white;
+    background: black;
+    transition: .3s;
+
+}
+
+.btns-row .col-4{
+    padding-right: 0;
+    padding-left: 0;
+}
+.row{
+   
+    justify-content: center;
+
+}
+.card{
+    margin-right: 1rem;
+  }
+  .tarjetas .row{
+    margin-top: 5rem!important;
+  }
+  
+section#contacto {
+    background: white;
+    border-radius: 10px;
+}
+img {
+    width: 200px;
+}
+
+
+.formulario input{
+    margin-bottom: 10px;
+}
+
+.btnenviar{
+    margin-top: 10px;
+}
+
+.backgroundContact{
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/imagencontacto.jpg);
+}
+.Form{
+    margin-top: 5rem;
+}
+ .texto h3{
+    color: snow;
+    margin-top: 5rem;
+    text-align: center;
+
+ }
+ .texto h4{
+    margin-top: 2rem;
+    text-align: center;
+    color: #ffffff75;
+ }
+ .texto img{
+    margin-left: 5rem;
+    margin-top: 3rem;
+ }
+ .btncolor{
+    text-align: center;
+    margin-top: 13px;
+ }

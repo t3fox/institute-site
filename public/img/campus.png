@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://campusvirtual.utvam.edu.mx/#home-page-carousel -->
+<html dir="ltr" lang="es-mx" xml:lang="es-mx" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>campusvirtual.utvam</title>
+    <link rel="shortcut icon" href="https://campusvirtual.utvam.edu.mx/theme/image.php/eguru/theme/1649427614/favicon">
+    
+<meta name="keywords" content="moodle, campusvirtual.utvam">
+<link rel="stylesheet" type="text/css" href="./campus_files/combo"><script charset="utf-8" id="yui_3_17_2_1_1653776964845_8" src="./campus_files/combo(1)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1653776964845_24" src="./campus_files/combo(2)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./campus_files/styles.php">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/campusvirtual.utvam.edu.mx","sesskey":"wX0xmcaOtY","sessiontimeout":"1800","themerev":"1649427614","slasharguments":1,"theme":"eguru","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1649427615","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/Cd de M\u00e9xico","contextid":2,"langrev":1652778868,"templaterev":"1649427615","developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":true,"base":"https:\/\/campusvirtual.utvam.edu.mx\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/campusvirtual.utvam.edu.mx\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/campusvirtual.utvam.edu.mx\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/campusvirtual.utvam.edu.mx\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/campusvirtual.utvam.edu.mx\/theme\/yui_combo.php?m\/1649427615\/","combine":true,"comboBase":"https:\/\/campusvirtual.utvam.edu.mx\/theme\/yui_combo.php?","ext":false,"root":"m\/1649427615\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/campusvirtual.utvam.edu.mx\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/campusvirtual.utvam.edu.mx\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1649427615\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/campusvirtual.utvam.edu.mx\/lib\/javascript.php\/1649427615\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/campusvirtual.utvam.edu.mx\/lib\/javascript.php\/1649427615\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<meta name="description" content="Bienvenidos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./campus_files/requirejs.php"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./campus_files/javascript.php"></script></head>
+
+<body id="page-site-index" class="format-site course path-site chrome dir-ltr lang-es_mx yui-skin-sam yui3-skin-sam campusvirtual-utvam-edu-mx pagelayout-frontpage course-1 context-2 notloggedin jsenabled">
+
+<div>
+    <a class="sr-only sr-only-focusable" href="https://campusvirtual.utvam.edu.mx/#maincontent">Saltar al contenido principal</a>
+</div><script src="./campus_files/javascript(1).php"></script>
+<script src="./campus_files/javascript(2).php"></script>
+<script src="./campus_files/combo(3)"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><script src="./campus_files/jquery-3.4.1.js.descarga"></script>
+<script src="./campus_files/javascript(3).php"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<nav id="header" role="banner" class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex">
+    <!-- LMSACE S.o -->
+    <div class="header-menubar">
+        <div class="container">
+            <div class="navbar">
+             <div class="navbar-inner">
+                <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                    <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">Pánel lateral</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    </button>
+                </div>
+        </div>
+
+        <ul class="nav navbar-nav ml-auto">
+            <div class="d-none d-lg-block">
+                
+            </div>
+            <!-- navbar_plugin_output -->
+            <li class="nav-item">
+            
+            </li>
+            
+            <!-- user_menu -->
+            <li class="nav-item d-flex align-items-center">
+                <div class="usermenu"><span class="login">Usted no ha iniciado sesión. (<a href="https://campusvirtual.utvam.edu.mx/login/index.php">Iniciar sesión (ingresar)</a>)</span></div>
+            </li>
+        </ul>
+        <!-- search_box -->
+
+          <div id="Mainmenu" class="nav-collapse collapse navbar-responsive-collapse">
+
+            <li class="nav-item">
+    <a class="nav-item nav-link" href="http://campusvirtual.utvam.edu.mx/admin/category.php?category=courses">Cursos</a>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6292a239f291a6292a239db6bd7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://campusvirtual.utvam.edu.mx/#" title="Idioma" aria-controls="drop-down-menu-6292a239f291a6292a239db6bd7">
+        Español (México) ‎(es_mx)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-6292a239f291a6292a239db6bd7" aria-labelledby="drop-down-6292a239f291a6292a239db6bd7">
+                <a class="dropdown-item" role="menuitem" href="https://campusvirtual.utvam.edu.mx/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://campusvirtual.utvam.edu.mx/?lang=es_mx" title="Español (México) ‎(es_mx)‎">Español (México) ‎(es_mx)‎</a>
+    </div>
+</li>
+
+            <div class="custom-nav-search">
+
+                <form action="https://campusvirtual.utvam.edu.mx/course/search.php" method="get">
+                    <div class="fields-wrap">
+                        <input type="text" placeholder="&lt;?php echo get_string(&#39;searchcourses&#39;); ?&gt;" name="search">
+                        <div class="btn-search fa fa-search"><input type="submit" value="Search"></div>
+                    </div>
+                </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+</nav>
+
+
+<div class="header-main">
+  <div class="container">
+	<nav class="navbar navbar-toggleable-md">
+		<div class="header-logo">
+		  <a class="navbar-brand" href="https://campusvirtual.utvam.edu.mx/?redirect=0">
+			<img src="./campus_files/utvirtual.png" width="183" height="67" alt="Eguru">
+		  </a>
+		</div>
+
+		<button class="navbar-toggler navbar-toggler-right d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <div class="custom-menu">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+    <a class="nav-item nav-link" href="http://campusvirtual.utvam.edu.mx/admin/category.php?category=courses">Cursos</a>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6292a239f2a526292a239db6bd10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://campusvirtual.utvam.edu.mx/#" title="Idioma" aria-controls="drop-down-menu-6292a239f2a526292a239db6bd10">
+        Español (México) ‎(es_mx)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-6292a239f2a526292a239db6bd10" aria-labelledby="drop-down-6292a239f2a526292a239db6bd10">
+                <a class="dropdown-item" role="menuitem" href="https://campusvirtual.utvam.edu.mx/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://campusvirtual.utvam.edu.mx/?lang=es_mx" title="Español (México) ‎(es_mx)‎">Español (México) ‎(es_mx)‎</a>
+    </div>
+</li>
+			</ul>
+			
+		  </div>
+		  <div class="clearfix"></div>
+		</div>
+	</nav>
+  </div>
+  
+</div>
+
+<!--E.O.Header--><!--E.O.Custom theme header-->
+<link rel="stylesheet" href="./campus_files/slick.css">
+
+<style type="text/css">
+    .theme-slider, #home-page-carousel .carousel-item {
+      height:550px;
+    }
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-next.carousel-item-left,
+  .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.carousel-item-next,
+.active.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-next,
+  .active.carousel-item-right {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.carousel-item-prev,
+.active.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-prev,
+  .active.carousel-item-left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+}
+
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-fade .carousel-item-next,
+  .carousel-fade .carousel-item-prev,
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-prev {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+</style>
+
+<div class="homepage-carousel" id="yui_3_17_2_1_1653776964845_23"><div id="home-page-carousel" class="carousel slide" data-ride="carousel"><ol class="carousel-indicators"><li data-target="#home-page-carousel" data-slide-to="0 class=&quot;active&quot;" class="active"></li><li data-target="#home-page-carousel" data-slide-to="1" class=""></li><li data-target="#home-page-carousel" data-slide-to="2" class=""></li><li data-target="#home-page-carousel" data-slide-to="3" class=""></li><li data-target="#home-page-carousel" data-slide-to="4" class=""></li><li data-target="#home-page-carousel" data-slide-to="5" class=""></li></ol><div class="carousel-inner" role="listbox" id="yui_3_17_2_1_1653776964845_22"><div class="carousel-item active" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide1image/1649427614/collage_eventos.jpg"><div class="carousel-overlay-content container-fluid"></div></div><div class="carousel-item" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide2image/1649427614/collage-deportesycultura.jpg"><div class="carousel-overlay-content container-fluid"></div></div><div class="carousel-item" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide3image/1649427614/inter3.jpg"><div class="carousel-overlay-content container-fluid"></div></div><div class="carousel-item" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide4image/1649427614/infraestructura.jpg"><div class="carousel-overlay-content container-fluid"></div></div><div class="carousel-item" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide5image/1649427614/proyectos2.jpg"><div class="carousel-overlay-content container-fluid"></div></div><div class="carousel-item" style="background-image: url(//campusvirtual.utvam.edu.mx/pluginfile.php/1/theme_eguru/slide6image/1649427614/proyectos3.jpg"><div class="carousel-overlay-content container-fluid"></div></div><a class="left carousel-control carousel-control-prev" href="https://campusvirtual.utvam.edu.mx/#home-page-carousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a><a class="right carousel-control carousel-control-next" href="https://campusvirtual.utvam.edu.mx/#home-page-carousel" data-slide="next" id="yui_3_17_2_1_1653776964845_21"><span class="carousel-control-next-icon" id="yui_3_17_2_1_1653776964845_20"></span></a></div></div></div><div class="custom-site-expo"><div class="container"><div class="row"><div class="col-md-3"><div class="ebox"><div class="ebox-head"><div class="rcthumb"><i class="fa fa-globe"></i></div></div></div></div><div class="col-md-3"><div class="ebox"><div class="ebox-head"><div class="rcthumb"><i class="fa fa-graduation-cap"></i></div></div></div></div><div class="col-md-3"><div class="ebox"><div class="ebox-head"><div class="rcthumb"><i class="fa fa-bullhorn"></i></div></div></div></div><div class="col-md-3"><div class="ebox"><div class="ebox-head"><div class="rcthumb"><i class="fa fa-mobile"></i></div></div></div></div></div></div></div>
+<div id="page" class="container">
+    <header id="page-header" class="clearfix">
+        <a title="Página Principal (home)" class="logo" href="https://campusvirtual.utvam.edu.mx/"></a>        <div id="page-navbar" class="clearfix">
+            <nav class="breadcrumb-nav"><nav aria-label="Barra de Navegación">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://campusvirtual.utvam.edu.mx/" aria-current="page">Página Principal (home)</a>
+                </li>
+        </ol>
+</nav></nav>
+            <div class="breadcrumb-button"></div>
+        </div>
+        <div id="course-header">
+                    </div>
+    </header>
+    <div id="page-content" class="row">
+            <div id="region-bs-main-and-pre" class="col-md-12">
+            <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><div class="box py-3 generalbox sitetopic"><ul class="section img-text"><li class="activity label modtype_label " id="module-73372"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p dir="ltr" style="text-align: left;">Mensaje<br></p></div></div></div></div></div></div></li></ul></div><div id="frontpage-course-list"><h2>Cursos disponibles</h2><div class="courses frontpage-course-list-all"><div class="row"><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=1998"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=1998">Inducción</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2739"><img src="./campus_files/Verde y Rojo Navidad Adornos Tarjeta de Presentación (5).png" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2739">Asesorias Académicas MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2741"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2741">DNM 202 Formación Sociocultural II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2740"><img src="./campus_files/team group.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2740">DNM 201 Formación Sociocultural II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2608"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2608">DNM 502 Expresión Oral y Escrita II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2607"><img src="./campus_files/hands-holding-puzzle-business-problem-solving-concept (2).jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2607">DNM 502 Integradora II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2606"><img src="./campus_files/! (3).png" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2606">Mercadotecnia Estratégica 502</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2605"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2605">DNM 502 Mercadotecnia Digital MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2604"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2604">DNM 502 Mezcla Promocional II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2603"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2603">DNM 502 Mercadotecnia Internacional MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2602"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2602">DNM 501 Expresión Oral y Escrita II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2601"><img src="./campus_files/hands-holding-puzzle-business-problem-solving-concept.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2601">DNM 501 Integradora II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2600"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2600">DNM 501 Mercadotecnia Estratégica MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2599"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2599">DNM 501 Mercadotecnia Digital MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2598"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2598">DNM 501 Mezcla Promocional II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2597"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2597">DNM 501 Mercadotecnia Internacional MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2595"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2595">DNM 202 Sistema de Investigación de Mercados I MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2594"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2594">DNM 202 Informática II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2593"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2593">DNM 202 Contabilidad MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2591"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2591">DNM 201 Sistema de Investigación de Mercados I MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2590"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2590">DNM 201 Informática II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2589"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2589">DNM 201 Contabilidad MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2562"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2562">DNM 202 Ventas MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2561"><img src="./campus_files/Strategic planning 202.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2561">DNM 202 Planeación Estratégica MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2560"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2560">DNM 202 Estadística MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2559"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2559">DNM 201 Ventas MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2558"><img src="./campus_files/Strategic Planning 201.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2558">DNM 201 Planeación Estratégica MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2557"><img src="./campus_files/no-image.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2557">DNM 201 Estadística MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2743"><img src="./campus_files/Verde y Rojo Navidad Adornos Tarjeta de Presentación (6).png" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2743">LI 202 Formación Sociocultural II MA22</a></h5></div></div></div><div class="col-md-3 col-sm-6"><div class="fp-coursebox"><div class="fp-coursethumb"><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2742"><img src="./campus_files/SOCIOCULTURAL 201  UTVAM.jpg" width="243" height="165" alt=""></a></div><div class="fp-courseinfo"><h5><a href="https://campusvirtual.utvam.edu.mx/course/view.php?id=2742">LI 201 Formación Sociocultural II MA22</a></h5></div></div></div></div></div></div><div class="box py-3 d-flex justify-content-center"><div class="simplesearchform ">
+    <form autocomplete="off" action="https://campusvirtual.utvam.edu.mx/course/search.php" method="get" accept-charset="utf-8" class="mform form-inline simplesearchform">
+        <input type="hidden" name="areaids" value="core_course-course">
+    <div class="input-group">
+        <label for="searchinput-6292a23a031fe6292a239db6bd11">
+            <span class="sr-only">Buscar cursos</span>
+        </label>
+        <input type="text" id="searchinput-6292a23a031fe6292a239db6bd11" class="form-control" placeholder="Buscar cursos" aria-label="Buscar cursos" name="q" data-region="input" autocomplete="off" value="">
+        <div class="input-group-append">
+            <button type="submit" class="btn  btn-primary search-icon">
+                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                <span class="sr-only">Buscar cursos</span>
+            </button>
+        </div>
+
+    </div>
+    </form>
+</div></div><br><br></div>        </div>
+        <aside id="block-region-side-pre" class="col-md-3 block-region" data-blockregion="side-pre" data-droptarget="1"></aside>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+    <nav class="list-group" aria-label="">
+        <ul>
+                <li>
+                    <a class="list-group-item list-group-item-action active active_tree_node " href="https://campusvirtual.utvam.edu.mx/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0">
+                        <div class="ml-0">
+                            <div class="media">
+                                    <span class="media-left">
+                                        <i class="icon fa fa-home fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                <span class="media-body font-weight-bold">Página Principal (home)</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+</div>
+</div>
+
+ <script src="./campus_files/slick.js.descarga"></script>
+<script>
+$( function() {
+
+    if ($('body').hasClass('dir-rtl') ) {
+        var rtl = true;
+    } else {
+        var rtl = false;
+    }
+    $(".promoted_courses").slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        rtl:rtl,
+        arrows:true ,
+        swipe:false,
+       /* prevArrow:'#Promoted-Courses .pagenav .slick-prev',
+        nextArrow: '#Promoted-Courses .pagenav .slick-next',*/
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                   
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1, 
+                    slidesToScroll: 1,                                               
+                }
+            }
+        ],
+    });
+
+
+});
+</script>
+
+<footer id="footer" class="py-3 bg-dark text-light">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-desc">
+                        <div class="logo-footer">
+                            <a href="https://campusvirtual.utvam.edu.mx/?redirect=0">
+                                <img src="./campus_files/utvirtual.png" width="183" height="67" alt="Eguru">
+                            </a>
+                        </div>
+                        <p>Misión:
+“Somos la Universidad Tecnológica BIS, comprometida con la educación Internacional, Bilingüe y Sustentable que forma profesionales basados en valores universales con responsabilidad social y competencias emprendedoras innovadoras para impulsar el desarrollo sustentable regional.”
+
+Visión:
+“La UTVAM es reconocida Internacionalmente por generar Innovación en Pro de su Sociedad y el Desarrollo Sustentable local a partir de líderes íntegros y emprendedores”.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-nav">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                           <li><a href="http://www.utvam.edu.mx/">Nuestra Universidad</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-media">
+                        <h4>Síguenos </h4>
+                        <ul>
+                            <li class="smedia-01">
+                                <a href="https://www.facebook.com/UtvamBis/" target="_blank">
+                                    <span class="media-icon">
+                                    <i class="fa fa-facebook"></i>
+                                    </span>
+                                    <span class="media-name">Facebook</span>
+                                </a>
+                            </li>
+
+                            <li class="smedia-02">
+                                <a href="https://twitter.com/UtvamBis" target="_blank">
+                                    <span class="media-icon">
+                                    <i class="fa fa-twitter"></i>
+                                    </span>
+                                    <span class="media-name">Twitter</span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-contact">
+                        <h4>Dirección </h4>
+                        <p>BLVD. MIGUEL HIDALGO Y COSTILLA Y CTO. FELIPE ÁNGELES RAMÍREZ NO. 5, MANZANA 184, LOTE 1,  FRACCIONAMIENTO LOS HÉROES DE TIZAYUCA. C.P. 43816 TIZAYUCA, HIDALGO. </p>
+                            <p><i class="fa fa-phone-square"></i>Teléfono: 01 771 2474028</p>
+
+                            <p><i class="fa fa-envelope"></i>
+                            E-mail: <a class="mail-link" href="mailto:rectoria@utvam.edu.mx">rectoria@utvam.edu.mx</a>
+                            </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="footer-foot">
+    <div class="container"><p class="text-center">- Copyright © 2019 - </p></div>
+</div>
+
+</footer>
+
+<footer>
+<div class="tool_dataprivacy"><a href="https://campusvirtual.utvam.edu.mx/admin/tool/dataprivacy/summary.php">Resumen de conservación de datos</a></div><a href="https://download.moodle.org/mobile?version=2020110900.08&amp;lang=es_mx&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Obtener la App Mobile</a>
+
+
+<script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://campusvirtual.utvam.edu.mx/lib/requirejs.php/1649427615/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://campusvirtual.utvam.edu.mx/lib/javascript.php/1649427615/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://campusvirtual.utvam.edu.mx/lib/javascript.php/1649427615/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://campusvirtual.utvam.edu.mx/lib/javascript.php/1649427615/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="./campus_files/javascript(4).php"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('es');
+});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6292a239db6bd3', [CustomEvents.events.accessibleChange]);
+    $('#single_select6292a239db6bd3').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6292a239db6bd2').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6292a239db6bd6', [CustomEvents.events.accessibleChange]);
+    $('#single_select6292a239db6bd6').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6292a239db6bd5').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6292a239db6bd9', [CustomEvents.events.accessibleChange]);
+    $('#single_select6292a239db6bd9').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6292a239db6bd8').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"trace"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="./campus_files/javascript(5).php"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 Usted seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"Est\u00e1 a punto de eliminar comentarios, \u00bfest\u00e1 seguro?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random6292a239db6bd12'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6292a239db6bd12'); });
+})();
+//]]>
+</script>
+
+
+</footer><!--E.O.Custom theme footer-->
+
+
+</body></html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html> 
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>UTVAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/whatssap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=7791362925&text=Estas%20contactandote%20con%20la%20direccion%20de%20administracion%20UTVAM." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img  class="float-end" src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Tramites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Programas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Oferta Educativa</a></li>
+            <li><a class="dropdown-item" href="#">Campus Virtual</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Titulacion</a></li>
+            <li><a class="dropdown-item" href="#">Becas</a></li>
+            <li><a class="dropdown-item" href="#">Vinculacion</a></li>
+            <li><a class="dropdown-item" href="#">Fortalezas</a></li>
+            <li><a class="dropdown-item" href="#">Debilidades</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Transparencia</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" id="busquedaContenido" aria-label="Search" >
+        <a class="btn btn-outline-success"  onclick="buscar();" >BUSCAR</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/tec21-nuestro-compromiso-no-cambia_1.jpg" class="d-block w-100" alt="...">
+    </div>
+  
+  </div>
+</div>
+
+
+<div class="row justify-content-center btns-row">
+  <div class="col-4">
+    <a class="btn-first" href="#">Finanzas</a>
+  </div>
+  <div class="col-4">
+    <a class="btn-first" style="border-left: 0; border-right: 0;" href="#">Adquisisiones</a>
+  </div>
+  <div class="col-4">
+    <a class="btn-first" href="#">Portal Transparencia</a>
+  </div>
+</div>
+
+  <div class="tarjetas">
+
+<div class="row">
+  <div class="card" style="width: 18rem;">
+  <img src="img/card1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mision</h5>
+    <p class="card-text">“Somos la Universidad Tecnológica BIS, comprometida con la educación Internacional, Bilingüe y Sustentable que forma profesionales basados en valores universales con responsabilidad social y competencias emprendedoras innovadoras para impulsar el desarrollo sustentable regional.”.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="img/card2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vision</h5>
+    <p class="card-text">“La UTVAM es reconocida Internacionalmente por generar Innovación en Pro de su Sociedad y el Desarrollo Sustentable local a partir de líderes íntegros y emprendedores”.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="img/card3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Politica de calidad</h5>
+    <p class="card-text">La Universidad de la Zona Metropolitana del Valle de México, se compromete a mejorar la efectividad de sus Procesos continuamente para ofertar Educación Bilingüe de Calidad, que satisfaga las expectativas de nuestros clientes con base a la Norma ISO 9001:2015.
+</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="img/card4.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Varoles de la institucion</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+</div>
+
+<section id="contacto">
+
+ 
+		<div class="Form">
+        <div class="row" style="background: black">
+          <div class="col-4 backgroundContact">
+          
+          </div>
+          <div class="col-4 p-5"  >
+            <h4>CONTACTANOS</h4>
+            <form class="formulario" action="/newsletter" method="POST">
+            <input id="nombre" name="nombre" type="text" class="form-control nombre" placeholder="Nombre" >
+            
+            <input id="apellido-paterno" name="apellido_paterno" type="text" class="form-control" placeholder="Apellido Paterno" >
+           
+            <input id="apellido-materno" name="apellido_materno" type="text" class="form-control" placeholder="Apellido Materno" >
+            
+            <input id="telefono" name="telefono" type="number" class="form-control" placeholder="Telefono" >
+            
+            <input id="mail" name="mail" type="mail" class="form-control" placeholder="Correo">
+           
+            <textarea id="mensaje" name="mensaje" class="form-control" placeholder="Escribe tu mensaje" ></textarea>
+            <button class="btn btn-primary btnenviar">Envíar</button>
+            </form>
+          </div>
+
+
+          
+          <div class="col-4 p-5">
+          	<div class="texto">
+          	 <h3>Contacto</h3>
+          	 <h4>Blvd. Miguel Hidalgo y Costilla y Cto. Gral. Felipe Ángeles Ramírez
+Fracc. Los Héroes Tizayuca, Tizayuca Hidalgo
++52 (771) 247 4028
+
+ </h4>
+  <img src="img/sep.png">
+  </div>
+  <div class="btncolor">
+  <div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</div>
+          </div>
+       
+          
+        </div>
+        </div>
+
+        
+        
+
+        </section>
+
+
+
+
+<script type="text/javascript" src="js/buscar.js">
+
+</script>
+<script type="text/javascript" src="js/contacto.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

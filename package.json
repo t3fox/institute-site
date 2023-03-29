@@ -1,0 +1,17 @@
+{
+  "name": "utvam",
+  "version": "1.0.0",
+  "description": "db connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon run",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.3.5"
+  }
+}
